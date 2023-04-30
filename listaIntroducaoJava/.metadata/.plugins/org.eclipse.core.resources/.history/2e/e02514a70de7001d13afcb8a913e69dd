@@ -1,0 +1,48 @@
+/*
+
+Faça um programa que entre com três números e coloque em ordem crescente.
+
+*/
+
+package estruturaRepeticao01;
+
+import java.util.Scanner;
+
+public class Ex02Repeticao {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner( System.in);
+		
+		int[] numeros = new int[3];
+		
+		// Recebe os números do usuário:
+		for(int i = 0; i < 3; i++) {
+			System.out.println("Digite o " + (i+1) + "º numero: ");
+		
+			numeros[i] = input.nextInt();			
+		}
+		
+		// Ordena os números em ordem crescente:
+		for (int i = 0; i < 3; i++) {
+			for(int j = i+1; j < 3; j++) {
+				if (numeros[i] > numeros[j]) {
+					
+					int aux = numeros[i];
+					numeros[i] = numeros[j];
+					numeros[j] = aux;
+				}
+			}
+			10
+			
+			// Mostra os valores em ordem crescente para o usuário 
+			System.out.println("Os numeros em ordem crescente säo: " + numeros[i]);
+			
+		}
+		
+
+		
+		
+	}
+
+}

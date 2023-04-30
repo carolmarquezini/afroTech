@@ -1,0 +1,14 @@
+package ex02funcionario;
+
+public class TestaFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario funcionario = new Funcionario ("Carol", 25, "Feminano", "01/06/2023", "Dev. Junior");
+		
+		funcionario.visualizar();
+
+	}
+
+}
+

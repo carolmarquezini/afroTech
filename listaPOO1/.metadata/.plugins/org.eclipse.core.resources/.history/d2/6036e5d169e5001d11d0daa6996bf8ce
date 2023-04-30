@@ -1,0 +1,21 @@
+package ex01cliente;
+
+public class TesteCliente {
+	
+	public static void main(String[] args) {
+		
+		//Contrutor cliente: 
+		
+		Cliente cadastro = new Cliente("Carol", "Feminino", 25f);
+		
+		cadastro.visualizar();
+		
+		/*cadastro.setCliente("Carol", "Feminino", 25);
+		
+		System.out.println("Nome cliente: " + cadastro.getNome());
+		System.out.println("Idade cliente: " + cadastro.getIdade());
+		System.out.println("Gênero cliente: " + cadastro.getGenero());
+		*/
+	}
+	
+}

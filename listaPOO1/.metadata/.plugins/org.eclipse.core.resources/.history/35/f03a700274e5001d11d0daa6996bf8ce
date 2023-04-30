@@ -1,0 +1,75 @@
+package ex03loja;
+
+public class Produto {
+	
+	private String jogo;
+	private String classificacao;
+	private float preco;
+	private float quantidadePecas;
+	private float idadeIndicada;
+	
+	public Produto (String jogo, String classificacao, float preco, float quantidadePecas, float idadeIndicada) {
+		
+		this.jogo = jogo;
+		this.classificacao = classificacao;
+		this.preco = preco;
+		this.quantidadePecas = quantidadePecas;
+		this.idadeIndicada = idadeIndicada;
+		
+		
+		
+	}
+
+	public String getJogo() {
+		return jogo;
+	}
+
+	public void setJogo(String jogo) {
+		this.jogo = jogo;
+	}
+
+	public String getClassificacao() {
+		return classificacao;
+	}
+
+	public void setClassificacao(String classificacao) {
+		this.classificacao = classificacao;
+	}
+
+	public float getPreco() {
+		return preco;
+	}
+
+	public void setPreco(float preco) {
+		this.preco = preco;
+	}
+
+	public float getQuantidadePecas() {
+		return quantidadePecas;
+	}
+
+	public void setQuantidadePecas(float quantidadePecas) {
+		this.quantidadePecas = quantidadePecas;
+	}
+
+	public float getIdadeIndicada() {
+		return idadeIndicada;
+	}
+
+	public void setIdadeIndicada(float idadeIndicada) {
+		this.idadeIndicada = idadeIndicada;
+	}
+	
+	public visualizar() {
+		
+		System.out.println("Jogo: " + this.jogo);
+		System.out.println("Classificacao do jogo: " + this.classificacao);
+		System.out.println("Preço: R$ " + this.preco);
+		System.out.println("Quantidade de peças: " + this.quantidadePecas);
+		System.out.println("Idade indicada: " + this.idadeIndicada);
+		
+		
+	}
+	
+
+}

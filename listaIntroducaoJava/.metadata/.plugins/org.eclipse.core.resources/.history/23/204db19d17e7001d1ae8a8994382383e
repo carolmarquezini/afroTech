@@ -1,0 +1,28 @@
+/*
+ * () Desenvolver um sistema que efetue a soma de todos os números ímpares que são  múltiplos de três e 
+ * () que se encontram no conjunto dos números de 1 até 500.
+
+ * */
+
+package estruturaRapedicao02;
+
+public class Ex02While {
+
+	public static void main(String[] args) {
+		
+		int soma = 0;
+		int cont = 0;
+		int numero = 1;
+		
+		while(numero < 500) {
+			
+			if(cont % 3 == 0) {
+				soma = som
+			}
+			
+		}
+		
+
+	}
+
+}

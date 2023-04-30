@@ -1,0 +1,15 @@
+package ex03loja;
+
+public class TestaGame {
+
+	public static void main(String[] args) {
+
+		Produto produto1 = new Produto("Imagem e acao", "diversao", 150, 5, 12);
+		Produto produto2 = new Produto("Futebol", "diversao", 40, 1, 4);
+
+		produto1.visualizar();
+		produto2.visualizar();
+
+	}
+
+}

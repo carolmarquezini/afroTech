@@ -1,0 +1,78 @@
+/*
+ * A prefeitura de uma cidade fez uma pesquisa entre 3 de seus habitantes, 
+ * coletando dados sobre o salário e número de filhos. 
+ * A prefeitura deseja saber:   
+
+	(x) média do salário da população; 
+	(x) média do número de filhos; 
+	(x) maior salário; 
+	() percentual de pessoas com salário até R$100,00.  
+
+ * */
+
+package estruturaRapedicao02;
+
+import java.util.Scanner;
+
+public class Ex01For {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double[] salarios = new double [3];
+		double maiorSalario = 0;
+		double somaSalarios = 0;
+		double mediaSalario = 0;
+		double salarioAteCem = 0;
+		double percentual = 0;
+		
+		int [] numFilhos = new int [3];
+		int somaFilhos = 0;
+		int mediaFilhos =0;
+		
+		for(int i = 0; i < 3; i++) {
+			
+			System.out.println("Informe o salário da " + (i+1) + "º pessoa: R$ ");
+			salarios[i] = input.nextDouble();
+			
+			System.out.println("Informe a quantidade de filhos da " + (i+1) + "º pessoa:");
+			numFilhos[i] = input.nextInt();
+			
+			if(salarios[i] <= 100) {
+				
+				salarioAteCem = salarioAteCem + 1;
+							
+				
+			}
+
+			if(salarios[i] > maiorSalario) {
+				maiorSalario = salarios[i];
+			}
+			
+		} 
+
+		if(salarioAteCem > 0) {
+			percentual = ((salarioAteCem/3)*100);
+			somaSalarios += salarios[i];
+		}
+		
+		mediaSalario = somaSalarios/salarios.length;
+		
+		somaFilhos += numFilhos[i];
+		mediaFilhos = somaFilhos / numFilhos.length;
+		
+
+		
+		System.out.println("\nSalarios até R$ 100,00: " + salarioAteCem);
+		System.out.println("Percentual de pessoas com salarios até R$ 100: " + salarioAteCem + " %");
+		System.out.println("O maior salario é R$ : " + maiorSalario);
+		System.out.println("A soma dos salarios é R$ " + somaSalarios);
+		System.out.println("A média dos salarios é R$ : " + mediaSalario);
+		System.out.println("\nA média do número de filhos é : " + mediaFilhos);
+
+		
+		
+	}
+
+}

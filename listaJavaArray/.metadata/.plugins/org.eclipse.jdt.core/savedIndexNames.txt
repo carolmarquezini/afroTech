@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+/Users/tiagobrito/Desktop/afroTech - bees/listaJavaArray/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1044028584.index
+1059239015.index

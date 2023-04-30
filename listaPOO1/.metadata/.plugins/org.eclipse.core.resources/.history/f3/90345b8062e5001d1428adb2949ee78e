@@ -1,0 +1,66 @@
+package cliente;
+
+public class Cliente {
+	
+	//Criando atributos do cliente: 
+	
+	private String nome;
+	private String genero;
+	private float idade;
+	
+
+	//Criando metodos do cliente
+	public void setCliente (String nome, String genero, float idade){
+		
+		this.nome = nome;
+		this.genero = genero;
+		this.idade = idade;
+		
+	}
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public String getGenero() {
+		return genero;
+	}
+
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+
+	public float getIdade() {
+		return idade;
+	}
+
+
+	public void setIdade(float idade) {
+		this.idade = idade;
+	}
+	
+	/*public void visualizar() {
+				
+		System.out.println("Nome cliente: " + this.nome);
+		System.out.println("Idade cliente: " + this.idade);
+		System.out.println("Gêneto cliente: " + this.genero);
+	}
+	*/
+	
+	
+	
+	
+	
+	/*
+	 * */
+
+}

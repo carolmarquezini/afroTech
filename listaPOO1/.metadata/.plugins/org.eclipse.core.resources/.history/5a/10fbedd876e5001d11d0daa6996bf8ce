@@ -1,0 +1,16 @@
+package ex04farmacia;
+
+public class TestaFarmacia {
+
+	public static void main(String[] args) {
+		
+		Farmacia produto1 = new Farmacia ("Remedio xx", "ems", "01/01/1900", 20);
+		
+		produto1.visualizar()
+;
+		
+
+
+	}
+
+}

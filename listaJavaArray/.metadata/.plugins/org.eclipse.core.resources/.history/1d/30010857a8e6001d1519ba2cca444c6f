@@ -1,0 +1,37 @@
+package listaJava;
+
+import java.util.Scanner;
+
+public class Ex01Array {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		double [] pontuacoes = new double [5];
+		double maiorPontuacao = pontuacoes[0];
+		int posicao = 0;
+
+		System.out.println("Atidade de Java\n");
+		
+		//for para ler o valor da pontuacao
+		for(int i = 0; i < pontuacoes.length; i++) {
+			
+			System.out.println("Informar a " + (i+1) + "ª pontuacao da atividade: ");
+			pontuacoes[i] = input.nextDouble();
+			
+			if (pontuacoes[i] > maiorPontuacao) {
+				
+				maiorPontuacao = pontuacoes[i];
+				posicao = i;
+			}
+			
+		}
+
+		System.out.println("\nMaior pontuacao é : " + maiorPontuacao + " e foi a " + (pontuacoes[i]) + "escolhida");
+
+		input.close();
+	}
+	
+	
+
+}
