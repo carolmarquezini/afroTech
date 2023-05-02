@@ -1,17 +1,17 @@
-# afroTech - Listas 📋
+# Afro Tech - Listas 📋
 
 Repositório criado para apresentar as listas de exercícios realizadas durante o curso de introdução à Java pela Afro Tech.
 
 ## Documentação 📄
-- [Listas](#listas)
-- [Arquitetura](#arquitetura)
+- **[Listas](#listas)**
+- **[Estrutura](#estrutura)**
 
 ### Listas
-- Introducao Java;
-  - [x] [Lista 01.1](https://github.com/carolmarquezini/afroTech/tree/main/listaIntroducaoJava/estruturaRepeticao/src/estruturaRepeticao01) - Estrutura de repetição (for / if /else);
-  - [x] [Lista 01.2](https://github.com/carolmarquezini/afroTech/tree/main/listaIntroducaoJava/estruturaRepeticao/src/estruturaRapedicao02) - Estrutura de repetição (for / while);
-  - [x] [Lista 02.0](https://github.com/carolmarquezini/afroTech/tree/main/listaJavaArray/listaJava/src/listaJava) - Array e ArrayList;
-  - [x] [Lista 03.0](https://github.com/carolmarquezini/afroTech/tree/main/listaPOO1/ex01POO/src) - Programação Orientada a Objetos (POO);
+- **Introducao Java**
+  - [x] **[Lista 01.1](https://github.com/carolmarquezini/afroTech/tree/main/listaIntroducaoJava/estruturaRepeticao/src/estruturaRepeticao01)** - Estrutura de repetição (for / if /else);
+  - [x] **[Lista 01.2](https://github.com/carolmarquezini/afroTech/tree/main/listaIntroducaoJava/estruturaRepeticao/src/estruturaRapedicao02)** - Estrutura de repetição (for / while);
+  - [x] **[Lista 02.0](https://github.com/carolmarquezini/afroTech/tree/main/listaJavaArray/listaJava/src/listaJava)** - Array e ArrayList;
+  - [x] **[Lista 03.0](https://github.com/carolmarquezini/afroTech/tree/main/listaPOO1/ex01POO/src)** - Programação Orientada a Objetos (POO);
   
 ### Estrutura
 
