@@ -26,25 +26,25 @@ Repositório criado para apresentar as listas de exercícios realizadas durante 
 ├─ 📂 listaJavaArray                       
 │  └─ 📂 src
 │     └─ 📂 listaJava
-│        ├─ 📂 Ex01Array.java
-│        ├─ 📂 Ex01Array.java
-│        ├─ 📂 Ex01Array.java
-│        └─ 📂 Ex01Array.java
+│        ├─ 📄 Ex01Array.java
+│        ├─ 📄 Ex01Array.java
+│        ├─ 📄 Ex01Array.java
+│        └─ 📄 Ex01Array.java
 ├─ 📂 listaPOO1
 │  └─ 📂 src
 │     ├─ 📂 ex01cliente           
-│     │  ├─ Cliente.java
-│     │  └─ TestaCliente.java
+│     │  ├─ 📄 Cliente.java
+│     │  └─ 📄 TestaCliente.java
 │     ├─ 📂 ex02funcionario           
-│     │  ├─ Funcionario.java
-│     │  └─ TestaFuncionario.java
+│     │  ├─ 📄 Funcionario.java
+│     │  └─ 📄 TestaFuncionario.java
 │     ├─ 📂 ex03loja           
-│     │  ├─ Produto.java
-│     │  └─ TestaGame.java
+│     │  ├─ 📄 Produto.java
+│     │  └─ 📄 TestaGame.java
 │     └─ 📂 ex04farmacia           
-│        ├─ Farmacia.java
-│        └─ TestaFarmacia.java
-├─ .gitignore 
-└─ README.md             
+│        ├─ 📄 Farmacia.java
+│        └─ 📄 TestaFarmacia.java
+├─ 📄 .gitignore 
+└─ 📄 README.md             
 ```
 
