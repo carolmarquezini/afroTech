@@ -1,4 +1,4 @@
-# Afro Tech - Listas 📋
+# Tech Afro Pretas - Listas 📋
 
 Repositório criado para apresentar as listas de exercícios realizadas durante o curso de introdução à Java pela Afro Tech.
 
